@@ -68,11 +68,11 @@ You can encourage me to contribute more to the open source with donations.
 
 `8085778875`
 
-# Contributers
+### Contributers
 
 [![Twitter](https://img.shields.io/badge/twitter-@shivangx01b-blue.svg)](https://twitter.com/shivangx01b)
 
-### Contact
+# Contact
 [![Twitter](https://img.shields.io/badge/twitter-@1ndianl33t-blue.svg)](https://twitter.com/1ndianl33t)
 
 
