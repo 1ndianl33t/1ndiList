@@ -14,6 +14,23 @@ With Go:
 ▶ go get -u github.com/1ndianl33t/1ndiList
 
 ```
+## Options:
+
+```
+▶ 1ndiList -h
+Options:
+  -subs, If enabled..then get all subs from stdin
+  
+  -param, If enabled..then get all params from stdin
+ 
+  -path, If enabled..then get all paths from stdin
+
+ -all, If enabled..then get all paths,params,subs from stdin
+ 
+  -t, Number of workers to use..default 40 (default 40)
+  
+  -o, <dir> name   Directory to save  (name_params.txt)
+```
 ## usage
 ```bash
 ▶ cat urls.txt | 1ndiList  -path -t 50 -o site
