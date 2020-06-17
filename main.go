@@ -100,7 +100,7 @@ func get_param(u string, output string) {
 	U, err := url.Parse(u)
 
 	if err != nil {
-
+		return
 	}
 
 	m, _ := url.ParseQuery(U.RawQuery)
@@ -121,7 +121,7 @@ func get_path(u string, output string) {
 	U, err := url.Parse(u)
 
 	if err != nil {
-
+		return
 	}
 
 	g := U.EscapedPath()
@@ -141,7 +141,7 @@ func get_subs(u string, output string) {
 	U, err := tld.Parse(u)
 
 	if err != nil {
-
+		return 
 	}
 
 	subs := U.Subdomain
