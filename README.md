@@ -39,7 +39,7 @@ Options:
 
 ▶ cat subdomainlist.txt | 1ndiList  -subs -t 50 -o site
 
-▶ cat usubdomainlist.txt | 1ndiList -all -t 50 -o site 
+▶ cat .txt | 1ndiList -all -t 50 -o site 
 ```
 ## Example
 ```bash
