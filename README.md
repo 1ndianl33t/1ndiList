@@ -46,7 +46,7 @@ Options:
 
 ▶ assetfinder --subs-only test.com | waybackurls| 1ndiList -t 50 -all -o test.com
 
-▶ Subfinder -d test.com | gau | 1ndiList -param -t 50 -o site.com
+▶ Subfinder -d test.com -silent | httprobe | 1ndiList -subs -t 50 -o site.com
 
 ```
 ### Tips
