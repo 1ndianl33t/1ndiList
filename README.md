@@ -25,7 +25,7 @@ Options:
  
   -path, If enabled..then get all paths from stdin
 
- -all, If enabled..then get all paths,params,subs from stdin
+  -all, If enabled..then get all paths,params,subs from stdin
  
   -t, Number of workers to use..default 40 (default 40)
   
